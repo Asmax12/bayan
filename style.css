@@ -349,3 +349,15 @@ button:focus-visible,
   .modal-demo { height: 200px; }
 }
 
+/* WhatsApp Button */
+.whatsapp-btn {
+  position: relative;
+  z-index: 10;
+  pointer-events: auto;
+  cursor: pointer;
+}
+
+/* Prevent decorative element from blocking the button */
+.cta-decoration {
+  pointer-events: none;
+}
